@@ -48,7 +48,7 @@ class App extends Component {
         <h1 className='title'>Star Wars Rolodex</h1>
           <SearchBox 
             onChangeHandler={onSearchChange}
-            placeholder='search user'
+            placeholder='search user in current list'
             className='searchbox'
           />
 
